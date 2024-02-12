@@ -2,6 +2,7 @@ import json
 from api import get_weather_data_5, get_city_coordinates
 from dotenv import load_dotenv
 import os
+import subprocess
 
 load_dotenv()  # This loads the environment variables from .env
 BASE_PATH = os.getenv('BASE_PATH') # Path to save your JSONS
@@ -40,5 +41,13 @@ def get_all_cities_weather(cities):
     # keep only the cities_weather.json file
     cleanup_json_files()
 
+def run_scrapy_spider():
+    command = "scrapy crawl hotel -o output.json"
+    subprocess.run(command, shell=True, check=True)
+
 # Run
+# * output.json (scrapy) and cities_weather.json (API calls) have the same key on 'city' from CITIES_PATH
+# TODO launch scrapping at the same time using async
+# ? how to run the scrapy from here
+# cities_weather.json (API calls)
 get_all_cities_weather(cities)
