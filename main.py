@@ -3,14 +3,11 @@ from api import get_weather_data_5, get_city_coordinates
 from dotenv import load_dotenv
 import os
 import subprocess
+import threading
 
 load_dotenv()  # This loads the environment variables from .env
 BASE_PATH = os.getenv('BASE_PATH') # Path to save your JSONS
 CITIES_PATH = os.getenv('CITIES_PATH') # Path to fetch your list of cities to work on
-
-# load the cities
-with open(CITIES_PATH) as f:
-    cities = json.load(f)
 
 def save_city_weather(data, city="cities", base_path=BASE_PATH):
     path = f"{base_path}/{city}_weather.json"
@@ -47,7 +44,20 @@ def run_scrapy_spider():
 
 # Run
 # * output.json (scrapy) and cities_weather.json (API calls) have the same key on 'city' from CITIES_PATH
-# TODO launch scrapping at the same time using async
-# ? how to run the scrapy from here
-# cities_weather.json (API calls)
-get_all_cities_weather(cities)
+# Main execution logic
+if __name__ == "__main__":
+    # Load cities from JSON
+    with open(CITIES_PATH) as f:
+        cities = json.load(f)
+
+    # Start the scrapy spider in a separate thread
+    # output.json (scrapy)
+    scrapy_thread = threading.Thread(target=run_scrapy_spider)
+    scrapy_thread.start()
+
+    # Meanwhile, run the weather data collection
+    # cities_weather.json (API calls)
+    get_all_cities_weather(cities)
+
+    # Wait for the scrapy thread to finish
+    scrapy_thread.join()
