@@ -14,3 +14,7 @@ class BookingItem(scrapy.Item):
     hotel_coordinates = scrapy.Field()
     hotel_rating = scrapy.Field()
     hotel_description = scrapy.Field()
+
+    # TODO Continue scraping additional details from 'item['hotel_booking_url']'
+    # TODO add more scrapy.Field() lines
+    # hotel_more_description = scrapy.Field()

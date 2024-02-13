@@ -1,0 +1,324 @@
+{
+    "St Malo": {
+        "0": {
+            "timestamp": 1707750000,
+            "time": "2024-02-12 15:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 265.14,
+            "temp_max_kelvin": 265.14,
+            "main_weather": "Clouds"
+        },
+        "1": {
+            "timestamp": 1707760800,
+            "time": "2024-02-12 18:00:00",
+            "pop": 0.2,
+            "temp_min_kelvin": 266.32,
+            "temp_max_kelvin": 268.67,
+            "main_weather": "Snow"
+        },
+        "2": {
+            "timestamp": 1707771600,
+            "time": "2024-02-12 21:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 268.11,
+            "temp_max_kelvin": 269.59,
+            "main_weather": "Clouds"
+        },
+        "3": {
+            "timestamp": 1707782400,
+            "time": "2024-02-13 00:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 268.41,
+            "temp_max_kelvin": 268.41,
+            "main_weather": "Clouds"
+        },
+        "4": {
+            "timestamp": 1707793200,
+            "time": "2024-02-13 03:00:00",
+            "pop": 0.2,
+            "temp_min_kelvin": 267.56,
+            "temp_max_kelvin": 267.56,
+            "main_weather": "Snow"
+        },
+        "5": {
+            "timestamp": 1707804000,
+            "time": "2024-02-13 06:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 263.79,
+            "temp_max_kelvin": 263.79,
+            "main_weather": "Clouds"
+        },
+        "6": {
+            "timestamp": 1707814800,
+            "time": "2024-02-13 09:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 262.7,
+            "temp_max_kelvin": 262.7,
+            "main_weather": "Clouds"
+        },
+        "7": {
+            "timestamp": 1707825600,
+            "time": "2024-02-13 12:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 262.13,
+            "temp_max_kelvin": 262.13,
+            "main_weather": "Clouds"
+        },
+        "8": {
+            "timestamp": 1707836400,
+            "time": "2024-02-13 15:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 265.11,
+            "temp_max_kelvin": 265.11,
+            "main_weather": "Clouds"
+        },
+        "9": {
+            "timestamp": 1707847200,
+            "time": "2024-02-13 18:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 268.7,
+            "temp_max_kelvin": 268.7,
+            "main_weather": "Clouds"
+        },
+        "10": {
+            "timestamp": 1707858000,
+            "time": "2024-02-13 21:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 269.79,
+            "temp_max_kelvin": 269.79,
+            "main_weather": "Clouds"
+        },
+        "11": {
+            "timestamp": 1707868800,
+            "time": "2024-02-14 00:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 267.94,
+            "temp_max_kelvin": 267.94,
+            "main_weather": "Clouds"
+        },
+        "12": {
+            "timestamp": 1707879600,
+            "time": "2024-02-14 03:00:00",
+            "pop": 0.09,
+            "temp_min_kelvin": 268.38,
+            "temp_max_kelvin": 268.38,
+            "main_weather": "Clouds"
+        },
+        "13": {
+            "timestamp": 1707890400,
+            "time": "2024-02-14 06:00:00",
+            "pop": 0.35,
+            "temp_min_kelvin": 268.57,
+            "temp_max_kelvin": 268.57,
+            "main_weather": "Snow"
+        },
+        "14": {
+            "timestamp": 1707901200,
+            "time": "2024-02-14 09:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 265.92,
+            "temp_max_kelvin": 265.92,
+            "main_weather": "Clouds"
+        },
+        "15": {
+            "timestamp": 1707912000,
+            "time": "2024-02-14 12:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 265.07,
+            "temp_max_kelvin": 265.07,
+            "main_weather": "Clouds"
+        },
+        "16": {
+            "timestamp": 1707922800,
+            "time": "2024-02-14 15:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 264.95,
+            "temp_max_kelvin": 264.95,
+            "main_weather": "Clouds"
+        },
+        "17": {
+            "timestamp": 1707933600,
+            "time": "2024-02-14 18:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 267.37,
+            "temp_max_kelvin": 267.37,
+            "main_weather": "Clouds"
+        },
+        "18": {
+            "timestamp": 1707944400,
+            "time": "2024-02-14 21:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 267.88,
+            "temp_max_kelvin": 267.88,
+            "main_weather": "Clouds"
+        },
+        "19": {
+            "timestamp": 1707955200,
+            "time": "2024-02-15 00:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 263.66,
+            "temp_max_kelvin": 263.66,
+            "main_weather": "Clouds"
+        },
+        "20": {
+            "timestamp": 1707966000,
+            "time": "2024-02-15 03:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 262.06,
+            "temp_max_kelvin": 262.06,
+            "main_weather": "Clouds"
+        },
+        "21": {
+            "timestamp": 1707976800,
+            "time": "2024-02-15 06:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 261.89,
+            "temp_max_kelvin": 261.89,
+            "main_weather": "Clouds"
+        },
+        "22": {
+            "timestamp": 1707987600,
+            "time": "2024-02-15 09:00:00",
+            "pop": 0.01,
+            "temp_min_kelvin": 263.71,
+            "temp_max_kelvin": 263.71,
+            "main_weather": "Clouds"
+        },
+        "23": {
+            "timestamp": 1707998400,
+            "time": "2024-02-15 12:00:00",
+            "pop": 0.2,
+            "temp_min_kelvin": 262.28,
+            "temp_max_kelvin": 262.28,
+            "main_weather": "Snow"
+        },
+        "24": {
+            "timestamp": 1708009200,
+            "time": "2024-02-15 15:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 260.55,
+            "temp_max_kelvin": 260.55,
+            "main_weather": "Clouds"
+        },
+        "25": {
+            "timestamp": 1708020000,
+            "time": "2024-02-15 18:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 261.17,
+            "temp_max_kelvin": 261.17,
+            "main_weather": "Clouds"
+        },
+        "26": {
+            "timestamp": 1708030800,
+            "time": "2024-02-15 21:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 260.77,
+            "temp_max_kelvin": 260.77,
+            "main_weather": "Clouds"
+        },
+        "27": {
+            "timestamp": 1708041600,
+            "time": "2024-02-16 00:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 258.23,
+            "temp_max_kelvin": 258.23,
+            "main_weather": "Clouds"
+        },
+        "28": {
+            "timestamp": 1708052400,
+            "time": "2024-02-16 03:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 256.61,
+            "temp_max_kelvin": 256.61,
+            "main_weather": "Clouds"
+        },
+        "29": {
+            "timestamp": 1708063200,
+            "time": "2024-02-16 06:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 255.75,
+            "temp_max_kelvin": 255.75,
+            "main_weather": "Clouds"
+        },
+        "30": {
+            "timestamp": 1708074000,
+            "time": "2024-02-16 09:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 255.03,
+            "temp_max_kelvin": 255.03,
+            "main_weather": "Clouds"
+        },
+        "31": {
+            "timestamp": 1708084800,
+            "time": "2024-02-16 12:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 253.16,
+            "temp_max_kelvin": 253.16,
+            "main_weather": "Clouds"
+        },
+        "32": {
+            "timestamp": 1708095600,
+            "time": "2024-02-16 15:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 252.98,
+            "temp_max_kelvin": 252.98,
+            "main_weather": "Clouds"
+        },
+        "33": {
+            "timestamp": 1708106400,
+            "time": "2024-02-16 18:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 254.89,
+            "temp_max_kelvin": 254.89,
+            "main_weather": "Clouds"
+        },
+        "34": {
+            "timestamp": 1708117200,
+            "time": "2024-02-16 21:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 256.42,
+            "temp_max_kelvin": 256.42,
+            "main_weather": "Clouds"
+        },
+        "35": {
+            "timestamp": 1708128000,
+            "time": "2024-02-17 00:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 257.37,
+            "temp_max_kelvin": 257.37,
+            "main_weather": "Clouds"
+        },
+        "36": {
+            "timestamp": 1708138800,
+            "time": "2024-02-17 03:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 258.13,
+            "temp_max_kelvin": 258.13,
+            "main_weather": "Clouds"
+        },
+        "37": {
+            "timestamp": 1708149600,
+            "time": "2024-02-17 06:00:00",
+            "pop": 0.2,
+            "temp_min_kelvin": 259.2,
+            "temp_max_kelvin": 259.2,
+            "main_weather": "Snow"
+        },
+        "38": {
+            "timestamp": 1708160400,
+            "time": "2024-02-17 09:00:00",
+            "pop": 0.25,
+            "temp_min_kelvin": 260.02,
+            "temp_max_kelvin": 260.02,
+            "main_weather": "Snow"
+        },
+        "39": {
+            "timestamp": 1708171200,
+            "time": "2024-02-17 12:00:00",
+            "pop": 0,
+            "temp_min_kelvin": 259.93,
+            "temp_max_kelvin": 259.93,
+            "main_weather": "Clouds"
+        }
+    }
+}

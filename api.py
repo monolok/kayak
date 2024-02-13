@@ -1,9 +1,4 @@
 import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # This loads the environment variables from .env
-RAPIDAPI_KEY = os.getenv('RAPIDAPI_KEY')
 
 def get_city_coordinates(city_name):
     #https://nominatim.openstreetmap.org/search?<params>
@@ -21,19 +16,21 @@ def get_city_coordinates(city_name):
         if data:
             latitude = data[0]['lat']
             longitude = data[0]['lon']
+            print(f"get_city_coordinates: {city_name} => {latitude}, {longitude}")
             return latitude, longitude
         else:
+            print(f"get_city_coordinates: Failed to get data for {city_name}")
             return None, None
     else:
-        print(f"Failed to get data for {city_name}, status code: {response.status_code}")
+        print(f"get_city_coordinates: Failed to get data for {city_name}, status code: {response.status_code}")
         return None, None
 
 #! 50 calls/month for free
-def get_weather_data_5(latitude, longitude, city_name):
+def get_weather_data_5(latitude, longitude, city_name, api_key):
     base_url = "https://open-weather13.p.rapidapi.com"
     url = f"{base_url}/city/fivedaysforcast/{latitude}/{longitude}"
     headers = {
-        "X-RapidAPI-Key": RAPIDAPI_KEY,
+        "X-RapidAPI-Key": api_key,
         "X-RapidAPI-Host": "open-weather13.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers)
@@ -60,7 +57,8 @@ def get_weather_data_5(latitude, longitude, city_name):
             'main_weather': main_weather}
 
             city_json[city_name][index] = weather_info
+            print(f"get_weather_data_5: {weather_info}")
         return city_json
     else:
-        print(f"Failed to get data for {city_name}, status code: {response.status_code}")
+        print(f"get_weather_data_5: Failed to get data for {city_name}, status code: {response.status_code}")
         return None

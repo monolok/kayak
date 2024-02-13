@@ -1,0 +1,142 @@
+{
+    "Mont Saint Michel": {
+        "latitude": "48.6359541",
+        "longitude": "-1.511459954959514"
+    },
+    "St Malo": {
+        "latitude": "49.314695",
+        "longitude": "-96.9538228"
+    },
+    "Bayeux": {
+        "latitude": "49.2764624",
+        "longitude": "-0.7024738"
+    },
+    "Le Havre": {
+        "latitude": "49.4938975",
+        "longitude": "0.1079732"
+    },
+    "Rouen": {
+        "latitude": "49.4404591",
+        "longitude": "1.0939658"
+    },
+    "Paris": {
+        "latitude": "48.8534951",
+        "longitude": "2.3483915"
+    },
+    "Amiens": {
+        "latitude": "49.8941708",
+        "longitude": "2.2956951"
+    },
+    "Lille": {
+        "latitude": "50.6365654",
+        "longitude": "3.0635282"
+    },
+    "Strasbourg": {
+        "latitude": "48.584614",
+        "longitude": "7.7507127"
+    },
+    "Chateau du Haut Koenigsbourg": {
+        "latitude": "48.249489800000006",
+        "longitude": "7.34429620253195"
+    },
+    "Colmar": {
+        "latitude": "48.0777517",
+        "longitude": "7.3579641"
+    },
+    "Eguisheim": {
+        "latitude": "48.0447968",
+        "longitude": "7.3079618"
+    },
+    "Besancon": {
+        "latitude": "47.2380222",
+        "longitude": "6.0243622"
+    },
+    "Dijon": {
+        "latitude": "47.3215806",
+        "longitude": "5.0414701"
+    },
+    "Annecy": {
+        "latitude": "45.8992348",
+        "longitude": "6.1288847"
+    },
+    "Grenoble": {
+        "latitude": "45.1875602",
+        "longitude": "5.7357819"
+    },
+    "Lyon": {
+        "latitude": "45.7578137",
+        "longitude": "4.8320114"
+    },
+    "Gorges du Verdon": {
+        "latitude": "43.7496562",
+        "longitude": "6.3285616"
+    },
+    "Bormes les Mimosas": {
+        "latitude": "43.1506968",
+        "longitude": "6.3419285"
+    },
+    "Cassis": {
+        "latitude": "43.2140359",
+        "longitude": "5.5396318"
+    },
+    "Marseille": {
+        "latitude": "43.2961743",
+        "longitude": "5.3699525"
+    },
+    "Aix en Provence": {
+        "latitude": "43.5298424",
+        "longitude": "5.4474738"
+    },
+    "Avignon": {
+        "latitude": "43.9492493",
+        "longitude": "4.8059012"
+    },
+    "Uzes": {
+        "latitude": "44.0121279",
+        "longitude": "4.4196718"
+    },
+    "Nimes": {
+        "latitude": "43.8374249",
+        "longitude": "4.3600687"
+    },
+    "Aigues Mortes": {
+        "latitude": "43.5661521",
+        "longitude": "4.19154"
+    },
+    "Saintes Maries de la mer": {
+        "latitude": "43.4515922",
+        "longitude": "4.4277202"
+    },
+    "Collioure": {
+        "latitude": "42.52505",
+        "longitude": "3.0831554"
+    },
+    "Carcassonne": {
+        "latitude": "43.2130358",
+        "longitude": "2.3491069"
+    },
+    "Ariege": {
+        "latitude": "42.9455368",
+        "longitude": "1.4065544156065486"
+    },
+    "Toulouse": {
+        "latitude": "43.6044622",
+        "longitude": "1.4442469"
+    },
+    "Montauban": {
+        "latitude": "44.0175835",
+        "longitude": "1.3549991"
+    },
+    "Biarritz": {
+        "latitude": "43.4832523",
+        "longitude": "-1.5592776"
+    },
+    "Bayonne": {
+        "latitude": "43.4945144",
+        "longitude": "-1.4736657"
+    },
+    "La Rochelle": {
+        "latitude": "46.1591126",
+        "longitude": "-1.1520434"
+    }
+}
