@@ -8,7 +8,7 @@ import threading
 load_dotenv()  # This loads the environment variables from .env
 BASE_PATH = os.getenv('BASE_PATH') # Path to save your JSONS
 CITIES_PATH = os.getenv('CITIES_PATH') # Path to fetch your list of cities to work on
-SCRAPY_PATH = os.getenv('SCRAPY_PATH')
+SCRAPY_PATH = os.getenv('SCRAPY_PATH') # Path to run scrapy shell from python
 RAPID_API_KEY = os.getenv('RAPID_API_KEY')
 
 def save_city_weather(data, city="cities", base_path=BASE_PATH):
